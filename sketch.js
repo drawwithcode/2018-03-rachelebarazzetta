@@ -6,7 +6,7 @@ var myColor = ['#586994', '#F43022', '#C5EFCB', '#F6F7EB', '#85CAD9']
 function setup() {
   // put setup code here
   createCanvas(windowWidth, windowHeight);
-  background(115);
+  background(200);
 }
 
 function draw() {
