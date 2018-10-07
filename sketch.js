@@ -42,7 +42,7 @@ function mousePressed(){
         var c = random(0, myColor.length-1);
           c = Math.round(c);
           fill(myColor[c]);
-          polygon(x+100,y+100,100,12);
+          polygon(x+100,y+100,115,12);
         }else if(k==1){
         var c = random(0, myColor1.length-1);
           c = Math.round(c);
@@ -52,7 +52,7 @@ function mousePressed(){
         var c = random(0, myColor2.length-1);
           c = Math.round(c);
           fill(myColor2[c]);
-          polygon(x+30,y+30,100,6);
+          polygon(x+30,y+30,120,6);
         }
 
 }
